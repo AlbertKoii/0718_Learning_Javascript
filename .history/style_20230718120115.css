@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  font-family: 微軟正黑體;
+}
+
+.html{
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.index {
+  display: flex;
+  position: fixed;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.coverpage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 60px;
+  display: inline-block;
+  margin-top: 20px;
+  animation: rotate 3s 1s infinite linear;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+}
+
+.index ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+
+.index li {
+  width: 200px;
+  opacity: .6;
+  text-align: center;
+  background-color: #16F4D0;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.index li:hover {
+  background-color: #CBF7ED;
+}
+
+.dance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bachata, .swing {
+  width:50%;
+  
+}
+
+
