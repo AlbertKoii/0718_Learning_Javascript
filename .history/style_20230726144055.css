@@ -1,0 +1,54 @@
+.index ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%; /* 將 .index ul 的寬度設置為 100% */
+  justify-content: space-between; /* 將 <a> 項目平均分佈在 <li> 內 */
+  padding: 0 20px; /* 為了避免項目靠近邊界，添加一些內側間距 */
+}
+
+.index li {
+  position: relative;
+  cursor: pointer;
+  text-align: center; /* 將文字水平置中 */
+}
+
+.index li a {
+  display: block; /* 將 <a> 設置為 block，佔滿整個 <li> 的寬度 */
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+  padding: 10px 20px; /* 添加 padding 來設置文字與邊框的距離 */
+  opacity: 0.6;
+  background-color: #16F4D0;
+  border-radius: 15px;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 讓內容水平垂直都置中 */
+  transition: background-color 0.3s ease;
+}
+
+.index li:nth-child(1) a {
+  left: 0%;
+}
+
+.index li:nth-child(2) a {
+  left: 20%;
+}
+
+.index li:nth-child(3) a {
+  left: 40%;
+}
+
+.index li:nth-child(4) a {
+  left: 60%;
+}
+
+.index li:nth-child(5) a {
+  left: 80%;
+}
+
+.index li:nth-child(6) a {
+  left: 100%;
+}

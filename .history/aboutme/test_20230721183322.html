@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="search-history">
+        <h2>Search History</h2>
+        <ul id="search-history-list"></ul>
+      </div>
+      <div class="account-status">
+        <h2>Account Status</h2>
+        <p id="account-status-text">Not logged in</p>
+      </div>
+    </div>
+    <div class="chat-panel">
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Type your message..." autocomplete="off">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="recommendation-panel">
+      <h2>Recommendation</h2>
+      <div id="recommendation-content">
+        <!-- Recommendation content goes here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "activities": [
+      { "img": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/358615341_5977976555641860_3354273534376025393_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=KuSEouKVFu8AX_GWCNF&_nc_ht=scontent-tpe1-1.xx&oh=00_AfCML6Cl6K1boZaXpJb6MjXDNOJR19yp6yiL9RejCefLuA&oe=64C7804A",
+        "title": "Swing Party info",
+        "name": "Swing Party",
+        "address": "台北市中山區",
+        "time": "2023-07-30 18:00",
+        "price": "NT$500"
+        "link"
+      },
+      { 
+        "img": "xxx",
+        "title": "Swing Party info",
+        "name": "Swing Party",
+        "address": "新北市永和區",
+        "time": "2023-08-05 19:30",
+        "price": "NT$600"
+      }
+    ]
+  }
+  

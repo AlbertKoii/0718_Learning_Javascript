@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.dance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swing, .bachata {
+  width: 50%;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.coverpage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+  .index {
+    height: 10vh; /* 或是其他適合的高度 */
+  }
+}
+/* 其他 CSS 部分保持不變 */
+
+.logo{
+  width: 150px;
+  height: auto;  
+}
+.index{
+  position: absolute;
+  bottom: 10%;
+}
+.index ul {
+  display: flex;
+  flex-wrap: wrap; /* 超過畫面寬度後自動換行 */
+  list-style-type: none;
+  width: 100%; /* 將 .index ul 的寬度設置為 100% */
+  justify-content: space-between; /* 將 <a> 項目平均分佈在 <li> 內 */
+  padding: 0 20px; /* 為了避免項目靠近邊界，添加一些內側間距 */
+  align-items: center;
+}
+
+.index li {
+  position: relative;
+  cursor: pointer;
+  text-align: center; /* 將文字水平置中 */
+}
+
+.index li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  background-color: #16F4D0;
+  border-radius: 15px;
+  white-space: nowrap;
+  margin-right: 10%;
+}
+
+.index li a:hover {
+  opacity: 1; /* 滑鼠懸停時恢復完全不透明 */
+}
+
+.index li a:active {
+  opacity: 0.6; /* 滑鼠點擊時透明度降至 0.6 */
+}
+
+.index li img.logo {
+  width: 40px;
+  height: 30px;
+  margin: 5px auto; /* 調整 logo 圖片與文字之間的垂直間距 */
+  display: block; /* 讓 logo 圖片置中 */
+}
+  
+.index li img.logo :hover{
+  color: aqua;
+  opacity: .6%;
+}
+
+
+
+
+.index li:nth-child(1) a {
+  left: 0%;
+}
+
+.index li:nth-child(2) a {
+  left: 20%;
+}
+
+.index li:nth-child(3) a {
+  left: 40%;
+}
+
+.index li:nth-child(4) a {
+  left: 60%;
+}
+
+.index li:nth-child(5) a {
+  left: 80%;
+}
+
+.index li:nth-child(6) a {
+  left: 100%;
+}

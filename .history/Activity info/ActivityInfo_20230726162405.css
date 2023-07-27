@@ -1,0 +1,91 @@
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    overflow: visible;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* 第一層樣式 */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    text-overflow: ellipsis;
+    background-color: #16F4D0;
+    min-width: 768px;
+}
+
+.search-bar input {
+    width: 200px;
+    height: 3vh;
+    padding: 5px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+.links {
+    font-size: .6em;
+    white-space: nowrap;
+}
+
+.link {
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+    font-weight:700;
+}
+
+.search{
+    margin-left: 2%;
+}
+
+.search input{
+    border-radius: 15px;
+    height: 20px;}
+
+/* 第二層樣式 */
+
+#buttonContainer {
+text-align: center;
+position: relative;
+display: flex;
+
+}
+
+button {
+margin: 10px;
+padding: 10px 20px;
+background-color: #16F4D0;
+color: white;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+font-size: 14px;
+}
+
+#contentContainer {
+margin-top: 30px;
+text-align: center;
+}
+
+.sales-content {
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+margin-bottom: 20px;
+}
+  

@@ -1,0 +1,21 @@
+{
+    "activities": [
+      {
+        "title": "Bachata info",
+        "name": "Bachata Party",
+        "address": "台北市中山區",
+        "time": "2023-07-30 18:00",
+        "price": "NT$500",
+        "link": "https://www.facebook.com/photo/?fbid=757452793053737&set=gm.304946565435077"
+      },
+      {
+        "title": "Bachata Party info",
+        "name": "Bachata Party",
+        "address": "新北市永和區",
+        "time": "2023-08-05 19:30",
+        "price": "NT$600",
+        "link": "src"
+      }
+    ]
+  }
+  
