@@ -1,0 +1,130 @@
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    font-size: 16px ;
+    /* border: 1px solid black; */
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    overflow: visible;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 786px;
+}
+/* 第一層樣式 */
+.search-bar {
+    position: relative;
+    o
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    text-overflow: ellipsis;
+    background-color: #16F4D0;
+    min-width: 768px;
+}
+
+.search-bar input {
+    width: 200px;
+    height: 3vh;
+    padding: 5px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+.links {
+    white-space: nowrap;
+}
+
+.link {
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+}
+
+.search{
+    margin-left: 2%;
+}
+
+.search input{
+    border-radius: 15px;
+    height: 20px;}
+
+/* 第二層樣式 */
+.topPictureOfCourse{
+    height: 400px;
+    width: 100%;
+}
+/* 第三層 */
+.container_buttom{
+    display: flex;
+    flex-direction: row;
+}
+.leftCourse{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.rightCourse{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+#sum{
+    min-width: 200px;
+    margin-left: 20px;
+    width: 200px;
+    border: 1px solid black;
+}
+#sum:hover{
+    opacity: .7 ;
+    transform: scale(1.1);
+}
+
+#list{
+    min-width: 200px;
+    background-color: #E0FFFF;
+    margin-left: 20px;
+    width: 200px;
+}
+.classroomLh:hover, 
+.classroomCh:hover, 
+.classroomBa:hover, 
+.classroomSa:hover{
+    transform: scale(1.1);
+    background-color: azure;
+}
+
+.classroomLh, 
+.classroomCh, 
+.classroomBa,
+.classroomSa{
+    border: 1px solid black;
+    display: block;
+    
+}
+.allInfo{
+    width: 768  px;;
+    min-width: 300px;
+    display: flex;
+    margin-left: 1%;
+}
+.allInfo img{
+    min-width: 300px;
+    width:300px;
+    height: auto;
+    margin-right: 20px;
+
+}
+
+

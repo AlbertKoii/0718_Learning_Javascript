@@ -1,0 +1,81 @@
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    border: 1px solid black;
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    overflow: visible;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 786px;
+}
+/* 第一層樣式 */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    text-overflow: ellipsis;
+    background-color: #16F4D0;
+    min-width: 768px;
+}
+
+.search-bar input {
+    width: 200px;
+    height: 3vh;
+    padding: 5px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+.links {
+    white-space: nowrap;
+}
+
+.link {
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+}
+
+.search{
+    margin-left: 2%;
+}
+
+.search input{
+    border-radius: 15px;
+    height: 20px;}
+
+/* 第二層樣式 */
+.topPictureOfCourse{
+    height: 400px;
+    width: 65%;
+}
+.container_buttom{
+    display: flex;
+    flex-direction: row;
+}
+.leftCourse{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.rightCourse{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+.courseSW{
+    background-color: aqua;
+}

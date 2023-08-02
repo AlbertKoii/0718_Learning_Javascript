@@ -1,0 +1,112 @@
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    min-width: 786px;
+
+}
+/* 第一層樣式 */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    text-overflow: ellipsis;
+    background-color: #16F4D0;
+}
+
+.search-bar input {
+    width: 200px;
+    height: 3vh;
+    padding: 5px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+.links {
+    font-size: .6em;
+    display: flex;
+    white-space: nowrap;
+}
+
+.link {
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+    font-weight:700;
+}
+
+.search{
+    margin-left: 2%;
+}
+
+.search input{
+    border-radius: 15px;
+    height: 20px;
+}
+/* 第二層樣式 */
+.content { 
+    justify-content: center; /* 在交錯軸方向上置中所有子元素 */
+    display: flex;
+    background-color: #f5f5f5;
+    min-width: 768px;
+}
+.left{
+    margin-top: 15px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left img {
+    position: relative;
+    max-width: 350px;
+
+    height: auto;
+    border-radius: 30px;
+    top: 0px;
+}
+
+
+.Icon {
+    display: flex;
+}
+.Icon img{
+    height: 10vh;
+    width: auto;
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.right {
+    width:fit-content;
+    margin-left: 30px;
+    display: flex;
+    flex-direction:column;
+}
+.right p{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+}
+
+
+
+
+
