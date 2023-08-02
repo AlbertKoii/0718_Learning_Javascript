@@ -1,0 +1,63 @@
+@media screen and (max-width: 767px) {
+    html, body{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .search-bar {
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background-color: #16F4D0;
+        width: 100vw;
+        height: 10vh;
+        
+    }
+    
+    .search-bar input {
+        height: 3vh;
+        padding: 5px;
+        left:0px;
+        position: absolute;
+        left: 0px;
+
+    }
+    .logo{
+        position: absolute; 
+        width: 100px;
+        left: 0px;
+        top:0px;
+    }
+    .links {
+        position: absolute; 
+        white-space: nowrap;
+        left:110px;
+        top: 25px;
+        font-size: 8px
+    }
+    
+    .link {
+        margin: 2px;
+        cursor: pointer;
+        border-radius: 15px;
+        border: solid .4px black;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    .search{
+        position: absolute;
+        margin-left: 2%;
+        width: 20px;
+        left: 100px;
+    }
+
+    #searchInput{
+        position: absolute;
+        border-radius: 10px;
+        height: 10px;
+        top: 20px;
+    } 
+        
+    }

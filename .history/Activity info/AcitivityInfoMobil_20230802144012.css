@@ -1,0 +1,77 @@
+@media screen and (max-width: 767px) {
+    html, body{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: #16F4D0;
+        height: 10vh;
+        overflow: hidden;
+    }
+    .logo{
+        position: absolute; 
+        width: 100px;
+        left: 0px;
+        top:0px;
+    }
+    .links {
+        position: absolute; 
+        white-space: nowrap;
+        left:110px;
+        top: 25px;
+        font-size: 8px
+    }
+    
+    .link {
+        margin: 2px;
+        cursor: pointer;
+        border-radius: 15px;
+        border: solid .4px black;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    .search{
+        position: absolute;
+        margin-left: 2%;
+        width: 20px;
+        left: 100px;
+    }
+
+    #searchInput{
+        position: absolute;
+        border-radius: 10px;
+        height: 10px;
+        top: 16px;
+    } 
+
+    /* 第二層 */
+    .contentContainer{
+        position: relative;
+        margin-left: 0px;
+        width:100vw;
+        
+    }
+    .buttonContainer{
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 10px;
+        font-size: 8px;
+    }
+    #btnContent1{
+        position: absolute;
+        font-size: 8px;
+        padding: 5px;
+
+    }
+    #btnContent2{
+        position: absolute;
+        font-size: 8px;
+        padding: 5px;
+        left: 140px;
+    }
+        
+    }

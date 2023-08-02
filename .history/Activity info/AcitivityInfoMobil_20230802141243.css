@@ -1,0 +1,57 @@
+@media screen and (max-width: 767px) {
+    html, body{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .search-bar {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background-color: #16F4D0;
+        width: 100vw;
+        height: 10vh;
+        
+    }
+    
+    .search-bar input {
+        height: 3vh;
+        padding: 5px;
+        left:0px;
+        position: absolute;
+        left: 0px;
+            
+    }
+    .logo{
+        position: absolute; 
+        width: 100px;
+        left: 0px;
+        top:0px;
+    }
+    .links {
+        position: absolute; 
+        white-space: nowrap;
+        left:110px;
+        top: 25px;
+    }
+    
+    .link {
+        margin: 0 5px;
+        font-size: 8px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 15px;
+        border: solid .4px black;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    .search{
+        margin-left: 2%;
+    }
+    
+    .search input{
+        border-radius: 15px;
+        height: 20px;}
+    }
