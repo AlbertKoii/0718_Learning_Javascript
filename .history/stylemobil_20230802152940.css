@@ -1,0 +1,92 @@
+@media screen and (max-width: 767px) {
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 微軟正黑體;
+    }
+
+  body, 
+  html{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .coverpage {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 2;
+      min-width: 786px;
+    }
+  .picReplace{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    overflow-y: hidden;
+  }
+
+  
+  .dance{
+    display: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .replace {
+    display: flex;
+    width: 50vw;
+    object-fit: fill;
+  }
+
+  #index{
+   padding: 0px;
+   margin: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translateX(-23%) translateY(0%);
+   overflow-y: hidden;
+
+  }
+  
+  .logo{
+    width: 50px;
+    height: auto;
+  }
+  
+  .list-01{
+    align-items: center; 
+    justify-content: center; 
+    height: fit-content;
+    white-space: nowrap;
+    bottom: 0;
+    
+  }
+  
+  .index li {
+    position: relative;
+    text-decoration: none;
+    
+  }
+  
+  .index li a {
+    text-decoration: none;
+    font-size: 10px;
+    opacity: 0.6;
+    background-color: #16F4D0;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    white-space: nowrap;
+  }
+  
+  .index li:hover{
+    transform: scale(1.2);
+  }
+  
+}

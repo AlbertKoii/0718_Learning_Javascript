@@ -1,0 +1,99 @@
+@media screen and (max-width: 767px) {
+    html, body{
+        padding: 0px;
+        margin: 0px;
+    }
+    /* 第一層 */
+    
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: #16F4D0;
+        height: 10vh;
+        overflow: hidden;
+    }
+    .logo{
+        position: absolute; 
+        width: 100px;
+        left: 0px;
+        top:0px;
+    }
+    .links {
+        position: absolute; 
+        white-space: nowrap;
+        left:110px;
+        top: 25px;
+        font-size: 8px
+    }
+    
+    .link {
+        margin: 2px;
+        cursor: pointer;
+        border-radius: 15px;
+        border: solid .4px black;
+        text-decoration: none; 
+        color: black;
+    }
+    
+    .search{
+        position: absolute;
+        margin-left: 2%;
+        width: 20px;
+        left: 100px;
+    }
+
+    #searchInput{
+        position: absolute;
+        border-radius: 10px;
+        height: 10px;
+        top: 12px;
+    } 
+
+    /* 第二層 */
+    .lists{
+        position: relative;
+        left: 0px;
+        width: 100vw;
+    }
+    #contentContainer {
+        position: relative;
+        width: 100vw;
+        left: 100px; /* Add a left margin of 20px */
+        margin: 0px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+
+    #buttonContainer {
+        position: relative;
+        font-size: 8px;
+        display: flex;
+    }
+
+    #btnContent1 {
+        position: relative;
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    #btnContent2 {
+        position: relative;
+        font-size: 8px;
+        padding: 5px;
+    }
+
+    .allInfo {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px; /* Add a left margin of 20px */
+    }
+
+    .activity01 {
+        width: 200px;
+    }
+    /* 第三層 */
+    .allInfo img{
+        width: 
+    }
+}   
+
