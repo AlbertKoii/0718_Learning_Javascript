@@ -1,0 +1,9 @@
+@media screen and (max-width: 414px) {
+
+.container_buttom{
+    min-width: 414px;   
+}
+.leftCourse{
+    min-width: 100px;;
+}
+}

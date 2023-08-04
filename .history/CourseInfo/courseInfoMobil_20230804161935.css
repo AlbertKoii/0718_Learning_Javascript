@@ -1,0 +1,59 @@
+@media screen and (max-width: 390px) {
+    html, body{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-bar {
+        padding: 10px;
+        width: 390px;
+    }
+
+    .search-bar input {
+        width: 40px;
+        height: 30px;
+        padding: 5px;
+    }
+    .logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    .links {
+        margin-left: 10px;
+    }
+
+    .link {
+        padding: 3px;
+    }
+
+    .topPictureOfCourse {
+        width: 390px;;
+    }
+
+    .rightCourse {
+        margin-bottom: 5px;
+    }
+
+    #sum {
+        width: 150px;
+        border: 0.5px solid black;
+    }
+
+    #list {
+        width: 150px;
+    } 
+    .allInfo img {
+        min-width: 150px;
+        
+        
+    width: 150px;
+        
+        
+    height: 150px;
+        margin-right: 10px;
+    }
+    }

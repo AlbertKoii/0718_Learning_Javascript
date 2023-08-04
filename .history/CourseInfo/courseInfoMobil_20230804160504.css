@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+.search-bar{
+    min-width: 414px;
+}
+.container_buttom{
+    min-width: 768px;
+}
+.leftCourse{
+    min-width: 50px;
+}
+}
