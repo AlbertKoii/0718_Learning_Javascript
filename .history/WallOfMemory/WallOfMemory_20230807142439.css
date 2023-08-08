@@ -1,0 +1,75 @@
+
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    font-size: 16px ;
+    /* border: 1px solid black; */
+}
+
+html,
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.search-bar{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 第一層樣式 */
+
+
+.PictureCourse01{
+    width: 100vw;
+    min-width: 768px;
+    object-fit: fill;
+}
+.topWallOfMemory{
+    position: absolute;
+    object-fit: fill;
+
+    height: 450px;
+    min-width: 768px;
+    
+    margin: 0px;        
+    padding: 0px;
+}
+
+
+.link {
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+}
+
+.links {
+
+    margin-left: 10px ;
+
+    display: flex; 
+    background-color: rgba(22, 244, 208, .05);
+    border-radius: 15px;
+
+    min-width: 768px;
+    white-space: nowrap;
+}
+
+
+.search-bar input {
+    flex: 1; /* Allow the input to take remaining space */
+    padding: 5px;
+    margin: 10px 5px; /* Add some spacing between elements */
+    border-radius: 15px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 10px; /* Add some spacing between elements */
+}
+

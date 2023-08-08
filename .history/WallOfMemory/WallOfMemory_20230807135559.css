@@ -1,0 +1,79 @@
+
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    font-size: 16px ;
+    /* border: 1px solid black; */
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+/* 第一層樣式 */
+.search-bar {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(22, 244, 208,.05);
+    z-index: 3;
+    border-radius: 15px;
+    min-width: 768px;
+    width: 100vw;
+}
+
+.search-bar input {
+    padding: 5px;
+    position: relative;
+    top: -5px;
+}
+.logo{
+    width: 100px;
+}
+
+.link {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+}
+.links {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 2vh;
+    
+}
+
+
+.search{
+    margin-left: 2%;
+}
+
+.search input{
+    border-radius: 15px;
+    height: 10px;
+    margin-top: 10px;
+
+}
+
+/* 第二層樣式 */
+.PictureCourse01{
+    width: 100vw;
+    min-width: 768px;
+    object-fit: fill;
+
+}
+.topWallOfMemory{
+    height: 400px;
+    width: 100vw;
+    
+    margin: 0px;        
+    padding: 0px;
+}

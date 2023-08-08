@@ -1,0 +1,84 @@
+
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    font-size: 16px ;
+    /* border: 1px solid black; */
+}
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 786px;
+}
+/* 第一層樣式 */
+.search-bar {
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    text-overflow: ellipsis;
+    background-color: rgba(22, 244, 208,.05);
+    z-index: 3;
+    border-radius: 30px;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.search-bar input {
+    width: 100px;
+    height: 100PX;
+    padding: 5px;
+    position: relative;
+    top: -5px;
+}
+.logo{
+    width: 100px;
+}
+.links {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 2vh;
+    white-space: nowrap;
+    
+}
+
+.link {
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+}
+
+.search{
+    margin-left: 2%;
+}
+
+.search input{
+    border-radius: 15px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+/* 第二層樣式 */
+.PictureCourse01{
+    min-width: 768px;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.topWallOfMemory{
+    height: 400px;
+    width: 100vw;
+    
+    margin: 0px;        
+    padding: 0px;
+}

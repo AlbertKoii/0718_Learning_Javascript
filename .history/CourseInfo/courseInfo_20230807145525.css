@@ -1,0 +1,188 @@
+
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    font-size: 16px ;
+    /* border: 1px solid black; */
+}
+
+html,
+body
+{
+    padding: 0px;
+    margin: 0px;
+    min-width: 768px;
+}
+
+.search-bar{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 第一層樣式 */
+
+
+.PictureCourse01{
+    width: 100%;
+}
+.topCourse{
+    position: absolute;
+    object-fit: fill;
+
+    height: 450px;
+    width: 100vw;
+    min-width: 768px;
+    
+    margin: 0px;        
+    padding: 0px;
+}
+
+.links {
+    margin-left: 10px ;
+
+    display: flex; 
+    background-color: rgba(22, 244, 208, .05);
+    border-radius: 15px;
+
+    min-width: 768px;
+    width: 768px;
+    
+}
+
+.link {
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid .4px black;
+    text-decoration: none; 
+    color: black;
+    white-space: nowrap;
+}
+.search-bar input {
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 130px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 10px; /* Add some spacing between elements */
+}
+/* 第二層樣式 */
+.PicturenCourse01{
+    min-width: 768px;
+
+}
+.topPictureOfCourse{
+    position: absolute;
+    height: 400px;
+    width: 100vw;
+    object-fit: fill;
+    min-width: 768px;
+    margin: 0px;
+    padding: 0px;
+}
+/* 第三層 */
+.container_buttom{
+    display: flex;
+    flex-direction: row;
+    min-width: 768px;
+    ma
+}
+.leftCourse{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.rightCourse{
+
+    display: flex;
+    overflow:scroll;
+    width: 768px;
+    margin-bottom: 10px;
+    width: 100vw;
+}
+
+.rightCourse::-webkit-scrollbar {
+    width: 1px;
+    background: rgba(229,229,229,.2);
+    width:0.2px;
+    border-radius: 20px;
+    width: 5px;
+    height: 8px;
+}
+
+.rightCourse::-webkit-scrollbar:hover{
+    background: rgba(229,229,229);
+}
+
+#sum{
+    min-width: 200px;
+    margin-left: 20px;
+    width: 200px;
+    border: 1px solid black;
+}
+#sum:hover{
+    opacity: .7 ;
+    transform: scale(1.1);
+}
+
+#list{
+    min-width: 200px;
+    background-color: #E0FFFF;
+    margin-left: 20px;
+    width: 200px;
+}
+.classroomLh:hover, 
+.classroomCh:hover, 
+.classroomBa:hover, 
+.classroomSa:hover{
+    transform: scale(1.1);
+    background-color: azure;
+}
+
+.classroomLh, 
+.classroomCh, 
+.classroomBa,
+.classroomSa{
+    border: 1px solid black;
+    display: block;
+    
+}
+.allInfo{
+    display: flex;
+    margin-left: 10px;
+    position: relative;
+    border: 1px solid black;
+
+}
+.allInfo img{
+    min-width: 200px;
+    width:200px;
+    height: 200px;
+    margin-right: 20px;
+}
+.courses01{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: 400px;
+}
+.courses01::-webkit-scrollbar {
+    width: 1px;
+    background: rgba(229,229,229,.2);
+    width:0.2px;
+    border-radius: 20px;
+    width: 5px;
+    height: 8px;
+}
+    
+.courses001{
+    position: relative;
+    width: 500px;
+}
+
+
