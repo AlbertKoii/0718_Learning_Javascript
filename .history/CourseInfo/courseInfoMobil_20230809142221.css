@@ -1,0 +1,131 @@
+    @media (max-width: 767px) {
+        html, body {
+            min-width: initial;
+            padding: 0px;
+            margin: 0px;
+            font-family: 微軟正黑體;
+    
+        }
+    /* 第一層 */
+    #SearchbarMobel{
+        position: relative;
+        height: 300px;
+    }
+    .hiddenSB{
+        display: flex;
+        height: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .topCourseMB{
+        position: absolute;
+    }
+
+    .logo{
+        height: 50px;
+        width: auto;
+        top: 10px;
+    }
+    #dt{
+        border: 1px solid black;
+        border-radius: 10px;
+
+        
+        font-size: 25px;
+        font-weight:900;
+        color: white;
+        
+        width: 120px;
+        margin:0px;
+        margin-top: 20px;
+        margin-left: 40px;
+
+
+        text-decoration: none;
+        align-items: center;
+
+        display: flex;
+
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .lk01{
+        margin: 10px;
+        width: fit-content;
+        border-radius: 10px;
+
+        min-width: 0px;
+        width: 0px;
+        margin-top: 20px;
+        
+    }
+    .lk01::marker {
+        content: none;
+    }
+    .links{
+        flex-direction: column;
+        flex: 1;
+        display: inline-block;
+        
+
+    }
+
+    .link{
+        width: 200px;
+
+        font-size: 14px;
+        font-weight:900;
+        color : black;
+
+        margin-left: 20px;
+        color: white;
+    }
+
+    .search-bar{
+        display: none;
+        }
+    /* 第二層 */
+    .container_buttom{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftCourse{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+    #sum{
+        min-width: 3px;
+        width: 100px;
+        
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 15px;
+    }
+    #list{
+        width: 30px;
+        
+    }
+    #display{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 30px;
+        margin-left: 15px;
+
+        height: fit-content;
+        
+    }
+
+    .allInfo{
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .allInfo img{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    }
