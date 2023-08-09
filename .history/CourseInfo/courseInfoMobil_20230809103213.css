@@ -1,0 +1,106 @@
+@media (max-width: 767px) {
+    html, body {
+        min-width: initial;
+        padding: 0px;
+        margin: 0px;
+        font-family: 微軟正黑體;
+    }
+/* 第一層 */
+    .topCourse{
+        position: absolute;
+    }
+    
+    .hiddenSB{
+        display: flex;
+
+        align-items: center;
+        justify-self: center;
+        background-color: rgb(0, 255, 255, .1);
+        min-width: 500px;
+        width: 500px;
+        height: fit-content;
+
+        box-sizing: border-box;
+
+    }
+    .details{
+        padding: 0px;
+        margin: 0px;
+    }
+    #dt{
+        border: 1px solid black;
+        border-radius: 10px;
+        
+        font-size: 25px;
+        font-weight:900;
+        color : white;
+        
+        
+        width: 120px;
+        margin:0px;
+        margin-top: 20px;
+
+
+        text-decoration: none;
+        align-items: center;
+
+        display: flex;
+
+        flex-direction: column;
+        box-sizing: border-box;
+
+        overflow: hidden;
+ 
+
+    }
+    .lk01{
+        margin: 10px;
+        width: fit-content;
+        border-radius: 10px;
+        
+
+
+        
+    }
+    .lk01::marker {
+        content: none;
+    }
+    .links{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-left: -20px;
+
+
+
+
+    }
+
+    .link{
+        background-color: rgb(0, 255, 255, .3);
+        
+        font-size: 14px;
+        font-weight:900;
+        color : white;
+        overflow: hidden; 
+        
+    }
+
+    .search input{
+        top: 10px;
+        width: 130px;
+        border-radius: 10px;
+        
+        display: flex;
+        flex: 1;
+    }
+    .search-bar{
+        display: none;
+    }
+/* 第二層 */
+.container_buttom{
+    margin-top: 400px;
+}
+
+}

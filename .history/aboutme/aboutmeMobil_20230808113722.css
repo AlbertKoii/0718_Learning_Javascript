@@ -1,0 +1,83 @@
+@media (max-width: 767px) {
+    html, body {
+        min-width: initial;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .hiddenSB{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        background-color: #16F4D0;
+        min-width: 500px;
+        width: 500px;
+    }
+    #dt{
+        padding: 5px 25px 10px 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 130px;
+        margin:0px;
+        margin-top: 20px;
+        text-decoration: none;
+
+    }
+    .lk01{
+        margin: 10px;
+        width: 100px;
+        text-decoration: none;
+    }
+
+    .li::before { 
+        content: ""; /* 清空標記的內容 */
+        position: absolute;
+        left: 0;
+        top: 50%; /* 將標記垂直置中 */
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: transparent;
+
+    }
+    .search input{
+        width: 130px;
+    }
+    .content{
+        box-sizing: content-box;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 414px;
+        width: 100vw;
+    }
+    .left{
+        
+        margin-top: 20px;
+        padding: 0px;
+        width: 100px;
+        min-width: 414px;
+        
+    }
+    .MyPicture{
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+        box-sizing: border-box;
+        position: relative;
+        left: 50px;
+    }
+    .Icon {
+        position: absolute;
+        display: flex;
+        bottom: 0px;
+        left: 80px;
+    }
+
+    
+    .search-bar{
+        display: none;
+    }
+}

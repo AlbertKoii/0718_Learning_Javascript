@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    html, body {
+        min-width: initial;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .hiddenSB{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        background-color: #16F4D0;
+    }
+    .dt{
+        padding: 5px 25px 10px 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .links{
+        border: 1px 5px 1px 1px;
+    }
+    .links li{
+        font-size: 8px;
+        border-radius: 0px;
+    }
+    .search-bar{
+        display: none;
+    }
+    .search input{
+        width: 130px;
+    }
+    .content{
+        box-sizing: ;
+    }
+    .left{
+        width: 200px;
+        height: auto;
+        object-fit:fill;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+
+}
